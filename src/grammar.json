@@ -12490,6 +12490,18 @@
           {
             "type": "STRING",
             "value": "gen"
+          },
+          {
+            "type": "STRING",
+            "value": "spec"
+          },
+          {
+            "type": "STRING",
+            "value": "proof"
+          },
+          {
+            "type": "STRING",
+            "value": "exec"
           }
         ]
       },

@@ -2177,6 +2177,10 @@ module.exports = grammar({
       'default',
       'union',
       'gen',
+      // Verus fn-mode keywords are contextual: fine as variable/field names
+      'spec',
+      'proof',
+      'exec',
     ), $.identifier),
 
     _type_identifier: $ => alias($.identifier, $.type_identifier),
