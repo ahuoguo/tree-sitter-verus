@@ -3397,6 +3397,18 @@
           "type": "CHOICE",
           "members": [
             {
+              "type": "STRING",
+              "value": "axiom"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
               "type": "SYMBOL",
               "name": "function_mode"
             },
@@ -3575,6 +3587,18 @@
             {
               "type": "STRING",
               "value": "broadcast"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "STRING",
+              "value": "axiom"
             },
             {
               "type": "BLANK"
@@ -12502,6 +12526,10 @@
           {
             "type": "STRING",
             "value": "exec"
+          },
+          {
+            "type": "STRING",
+            "value": "axiom"
           }
         ]
       },

@@ -658,6 +658,7 @@ module.exports = grammar({
       $verus(optional($.publish)),
       optional($.function_modifiers),
       $verus(optional('broadcast')),
+      $verus(optional('axiom')),
       $verus(optional($.function_mode)),
       'fn',
       field('name', choice($.identifier, $.metavariable)),
@@ -675,6 +676,7 @@ module.exports = grammar({
       $verus(optional($.publish)),
       optional($.function_modifiers),
       $verus(optional('broadcast')),
+      $verus(optional('axiom')),
       $verus(optional($.function_mode)),
       'fn',
       field('name', choice($.identifier, $.metavariable)),
@@ -2181,6 +2183,7 @@ module.exports = grammar({
       'spec',
       'proof',
       'exec',
+      'axiom',
     ), $.identifier),
 
     _type_identifier: $ => alias($.identifier, $.type_identifier),
